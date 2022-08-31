@@ -18,7 +18,7 @@
 			"email" : "amin.shafiee.d@gmail.com"
 		}
 	],
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"require" : {
 		"aminbbb92/yii2-aminbbb92-base" : "*",
 		"kartik-v/yii2-grid" : "*",

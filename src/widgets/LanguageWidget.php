@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project    Yii2 Multi Language
  * @author     Phuong
  * @email      phuong17889[at]gmail.com
@@ -8,11 +8,11 @@
  * @updated    03/03/2016 00:40 SA
  * @since      2.0.0
  */
-namespace navatech\language\widgets;
+namespace aminbbb92\language\widgets;
 
-use navatech\language\assets\LanguageAsset;
-use navatech\language\helpers\LanguageHelper;
-use navatech\language\models\Language;
+use aminbbb92\language\assets\LanguageAsset;
+use aminbbb92\language\helpers\LanguageHelper;
+use aminbbb92\language\models\Language;
 use Yii;
 use yii\base\Exception;
 use yii\base\InvalidParamException;

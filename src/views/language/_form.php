@@ -1,6 +1,6 @@
 <?php
-use navatech\language\models\Language;
-use navatech\language\Translate;
+use aminbbb92\language\models\Language;
+use aminbbb92\language\Translate;
 use yii\web\View;
 use yii\widgets\ActiveForm;
 

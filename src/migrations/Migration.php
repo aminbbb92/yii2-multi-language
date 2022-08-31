@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project   Yii2 Multi Language
  * @author    Phuong
  * @email     phuong17889[at]gmail.com
@@ -8,7 +8,7 @@
  * @time      1:09 CH
  * @since     1.0.0
  */
-namespace navatech\language\migrations;
+namespace aminbbb92\language\migrations;
 class Migration extends \yii\db\Migration {
 
 	/**

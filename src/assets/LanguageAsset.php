@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project Yii2 Multi Language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,7 +8,7 @@
  * @time    4:49 CH
  * @since   1.0.2
  */
-namespace navatech\language\assets;
+namespace aminbbb92\language\assets;
 
 use yii\web\AssetBundle;
 
@@ -35,13 +35,13 @@ class LanguageAsset extends AssetBundle {
 		parent::init();
 		$this->depends    = [
 			'yii\web\YiiAsset',
-			'yii\bootstrap\BootstrapAsset',
-			'yii\bootstrap\BootstrapPluginAsset',
+			'yii\bootstrap4\BootstrapAsset',
+			'yii\bootstrap4\BootstrapPluginAsset',
 		];
 		$this->css        = [
 			'css/style.css',
 			'css/phoca-flags.css',
 		];
-		$this->sourcePath = '@vendor/navatech/yii2-multi-language/src/web';
+		$this->sourcePath = '@vendor/aminbbb92/yii2-multi-language/src/web';
 	}
 }

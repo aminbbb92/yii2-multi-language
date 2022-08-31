@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project nic
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,8 +8,8 @@
  * @time    2:35 CH
  */
 use kartik\grid\GridView;
-use navatech\language\models\search\PhraseSearch;
-use navatech\language\Translate;
+use aminbbb92\language\models\search\PhraseSearch;
+use aminbbb92\language\Translate;
 use yii\data\ActiveDataProvider;
 use yii\web\View;
 
@@ -19,7 +19,7 @@ use yii\web\View;
 $this->title                   = Translate::list_x(Translate::phrase());
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="navatech-language">
+<div class="aminbbb92-language">
 	<div class="col-sm-12">
 		<div class="page-header">
 			<h1><?= Translate::phrase() ?>

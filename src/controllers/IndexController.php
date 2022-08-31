@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project    Yii2 Multi Language
  * @author     Phuong
  * @email      phuong17889[at]gmail.com
@@ -8,12 +8,12 @@
  * @updated    03/03/2016 00:38 SA
  * @since      2.0.0
  */
-namespace navatech\language\controllers;
+namespace aminbbb92\language\controllers;
 
-use navatech\language\models\Language;
-use navatech\language\models\search\LanguageSearch;
-use navatech\language\Module;
-use navatech\language\Translate;
+use aminbbb92\language\models\Language;
+use aminbbb92\language\models\search\LanguageSearch;
+use aminbbb92\language\Module;
+use aminbbb92\language\Translate;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\filters\VerbFilter;
@@ -62,7 +62,7 @@ class IndexController extends Controller {
 		];
 		if (Module::hasUserRole()) {
 			$behaviors['role'] = [
-				'class'   => \navatech\role\filters\RoleFilter::className(),
+				'class'   => \aminbbb92\role\filters\RoleFilter::className(),
 				'name'    => Translate::x_management([Translate::language()]),
 				'actions' => [
 					'list'   => Translate::lists(),

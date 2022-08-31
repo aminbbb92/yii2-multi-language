@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project Yii2 Multi Language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,8 +8,8 @@
  * @time    1:46 SA
  * @since   1.0.2
  */
-namespace navatech\language;
-class Module extends \navatech\base\Module {
+namespace aminbbb92\language;
+class Module extends \aminbbb92\base\Module {
 
 	const VERSION = '2.0.1';
 

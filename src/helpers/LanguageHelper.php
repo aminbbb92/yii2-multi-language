@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project yii2-basic
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,13 +8,13 @@
  * @time    12:36 AM
  */
 
-namespace navatech\language\helpers;
+namespace aminbbb92\language\helpers;
 
-use navatech\language\db\ActiveRecord;
-use navatech\language\models\Language;
-use navatech\language\models\Phrase;
-use navatech\language\models\PhraseTranslate;
-use navatech\language\Module;
+use aminbbb92\language\db\ActiveRecord;
+use aminbbb92\language\models\Language;
+use aminbbb92\language\models\Phrase;
+use aminbbb92\language\models\PhraseTranslate;
+use aminbbb92\language\Module;
 use Yii;
 use yii\base\ErrorException;
 use yii\base\Exception;
@@ -91,7 +91,7 @@ class LanguageHelper {
 	 */
 	private static function _setClass($path, $data) {
 		$php = '<?php' . PHP_EOL;
-		$php .= 'namespace navatech\language;' . PHP_EOL;
+		$php .= 'namespace aminbbb92\language;' . PHP_EOL;
 		$php .= 'class Translate {' . PHP_EOL;
 		foreach ($data as $key => $item) {
 			$php .= '       /**' . PHP_EOL;

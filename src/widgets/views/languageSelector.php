@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project Yii2 Multi Language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -14,7 +14,7 @@
  */
 ?>
 
-<div class="navatech-multi-language">
+<div class="aminbbb92-multi-language">
 	<div class="dropdown">
 		<button class="btn btn-default dropdown-toggle" type="button" id="multiLanguage" data-toggle="dropdown">
 			<span class="flag <?= $current['country'] ?> flag-20"></span> <?= $current['name'] ?>

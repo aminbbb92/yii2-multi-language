@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project Yii2 Multi Language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,8 +8,8 @@
  * @time    1:44 CH
  */
 use kartik\grid\GridView;
-use navatech\language\models\search\LanguageSearch;
-use navatech\language\Translate;
+use aminbbb92\language\models\search\LanguageSearch;
+use aminbbb92\language\Translate;
 use yii\data\ActiveDataProvider;
 use yii\helpers\Html;
 use yii\web\View;
@@ -19,7 +19,7 @@ use yii\web\View;
 /* @var $dataProvider ActiveDataProvider */
 $this->params['breadcrumbs'][] = Translate::languages();
 ?>
-<div class="navatech-language">
+<div class="aminbbb92-language">
 	<div class="col-sm-12">
 		<div class="page-header">
 			<h1><?= Translate::language() ?>

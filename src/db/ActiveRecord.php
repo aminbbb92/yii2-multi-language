@@ -5,7 +5,7 @@
  * Date: 9/30/16
  * Time: 3:19 PM
  */
-namespace navatech\language\db;
+namespace aminbbb92\language\db;
 /**
  * @method string getTranslateAttribute(string $attribute, string|null $language_code = null)
  * @method boolean hasTranslateAttribute(string $attribute_translation)

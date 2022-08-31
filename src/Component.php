@@ -5,9 +5,9 @@
  * Date: 9/30/16
  * Time: 10:58 AM
  */
-namespace navatech\language;
+namespace aminbbb92\language;
 
-use navatech\language\models\Language;
+use aminbbb92\language\models\Language;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\Cookie;

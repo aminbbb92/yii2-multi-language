@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project    nic
  * @author     Phuong
  * @email      phuong17889[at]gmail.com
@@ -9,14 +9,14 @@
  * @since      2.0.0
  */
 
-namespace navatech\language\controllers;
+namespace aminbbb92\language\controllers;
 
-use navatech\language\models\Language;
-use navatech\language\models\Phrase;
-use navatech\language\models\PhraseTranslate;
-use navatech\language\models\search\PhraseSearch;
-use navatech\language\Module;
-use navatech\language\Translate;
+use aminbbb92\language\models\Language;
+use aminbbb92\language\models\Phrase;
+use aminbbb92\language\models\PhraseTranslate;
+use aminbbb92\language\models\search\PhraseSearch;
+use aminbbb92\language\Module;
+use aminbbb92\language\Translate;
 use Yii;
 use yii\base\ExitException;
 use yii\base\InvalidParamException;
@@ -67,7 +67,7 @@ class PhraseController extends Controller {
 		];
 		if (Module::hasUserRole()) {
 			$behaviors['role'] = [
-				'class'   => \navatech\role\filters\RoleFilter::className(),
+				'class'   => \aminbbb92\role\filters\RoleFilter::className(),
 				'name'    => Translate::x_management([Translate::phrase()]),
 				'actions' => [
 					'index'  => Translate::lists(),

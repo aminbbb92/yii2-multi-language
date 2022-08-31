@@ -1,8 +1,8 @@
 <?php
-use navatech\language\helpers\LanguageHelper;
+use aminbbb92\language\helpers\LanguageHelper;
 use yii\db\Migration;
 
-class m160213_041916_navatech_multi_language_insert extends Migration {
+class m160213_041916_aminbbb92_multi_language_insert extends Migration {
 
 	public function up() {
 		$this->insert('{{%language}}', [
@@ -122,7 +122,7 @@ class m160213_041916_navatech_multi_language_insert extends Migration {
 	}
 
 	public function down() {
-		echo "m160213_041916_navatech_multi_language_insert cannot be reverted.\n";
+		echo "m160213_041916_aminbbb92_multi_language_insert cannot be reverted.\n";
 		return false;
 	}
 }

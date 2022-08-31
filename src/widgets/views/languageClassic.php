@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project Yii2 Multi Language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -13,7 +13,7 @@
  */
 ?>
 
-<div class="navatech-multi-language">
+<div class="aminbbb92-multi-language">
 	<div class="language-box">
 		<?php foreach ($data as $key => $item) : ?>
 			<?php if ($key === 0): ?>

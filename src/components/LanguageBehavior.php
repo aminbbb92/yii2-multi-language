@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project    yii-basic
  * @author     Phuong
  * @email      phuong17889[at]gmail.com
@@ -8,10 +8,10 @@
  * @time       5:39 CH
  * @since      2.0.0
  */
-namespace navatech\language\components;
+namespace aminbbb92\language\components;
 
-use navatech\language\helpers\LanguageHelper;
-use navatech\language\Module;
+use aminbbb92\language\helpers\LanguageHelper;
+use aminbbb92\language\Module;
 use ReflectionClass;
 use Yii;
 use yii\base\Behavior;

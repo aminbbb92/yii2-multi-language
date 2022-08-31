@@ -1,7 +1,7 @@
 <?php
-use navatech\language\migrations\Migration;
+use aminbbb92\language\migrations\Migration;
 
-class m160204_045439_navatech_multi_language_init extends Migration {
+class m160204_045439_aminbbb92_multi_language_init extends Migration {
 
 	public function up() {
 		$tableOptions_mysql = 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB';

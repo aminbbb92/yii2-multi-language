@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project yii2-multi-language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,7 +8,7 @@
  * @time    12:46 SA
  * @since 2.0.0
  */
-namespace navatech\language\db;
+namespace aminbbb92\language\db;
 
 use yii\db\ActiveQuery;
 

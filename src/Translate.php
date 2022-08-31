@@ -1,6 +1,6 @@
 <?php
 /**
- * Created by Navatech.
+ * Created by aminbbb92.
  * @project Yii2 Multi Language
  * @author  Phuong
  * @email   phuong17889[at]gmail.com
@@ -8,9 +8,9 @@
  * @time    11:03 SA
  * @since   1.0.1
  */
-namespace navatech\language;
+namespace aminbbb92\language;
 
-use navatech\language\helpers\LanguageHelper;
+use aminbbb92\language\helpers\LanguageHelper;
 use Yii;
 use yii\base\InvalidParamException;
 

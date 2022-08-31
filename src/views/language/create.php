@@ -1,6 +1,6 @@
 <?php
-use navatech\language\models\Language;
-use navatech\language\Translate;
+use aminbbb92\language\models\Language;
+use aminbbb92\language\Translate;
 use yii\web\View;
 
 /* @var $this View */
@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = [
 ];
 $this->params['breadcrumbs'][] = Translate::create();
 ?>
-<div class="navatech-language">
+<div class="aminbbb92-language">
 	<div class="col-sm-12">
 		<div class="page-header">
 			<h1><?= Translate::language() ?>

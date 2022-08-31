@@ -18,6 +18,7 @@
 			"email" : "amin.shafiee.d@gmail.com"
 		}
 	],
+	"minimum-stability": "dev",
 	"require" : {
 		"aminbbb92/yii2-aminbbb92-base" : "*",
 		"kartik-v/yii2-grid" : "*",
@@ -28,7 +29,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"aminbbb92\\language\\" : "src"
+			"navatech\\language\\" : "src"
 		}
 	}
 }
